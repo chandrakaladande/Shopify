@@ -15,12 +15,12 @@ export const Home = () => {
   const isLoggedIn = sessionStorage.getItem("isLoggedIn");
   const cartCount = useSelector((state) => state);
 
-  return ( 
+  return (
     <>
       <Navbar bg="dark" variant="dark">
         <Container className="nav">
           <Link to="/">
-            <Navbar.Brand>ShopHuB.com</Navbar.Brand>
+            <Navbar.Brand>Shopify.com</Navbar.Brand>
           </Link>
           <NavLink to="/Home">Home</NavLink>
           <Link to="/cart">
