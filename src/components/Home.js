@@ -34,7 +34,7 @@ export const Home = () => {
             <>
               <NavDropdown title="My Account" id="collasible-nav-dropdown">
                 <NavDropdown.Item>
-                  <h6>Hi! &nbsp;{googleData.givenName}</h6>
+                  <h6>Hi! &nbsp;{googleData.name}</h6>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item>
